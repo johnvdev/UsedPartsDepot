@@ -1,0 +1,52 @@
+﻿{
+  "Brakes": [
+    "Calipers",
+    "Flex lines",
+    "Master Cylinders",
+    "Wheel Cylinders"
+    
+  ],
+    "DriveTrain": [
+    "Axels",
+    "Sensors",
+    "Clutch",
+    "Hub Assemblys",
+    "Drive shafts"
+    
+  ],
+    "GearBox": [
+    "Transmissions",
+    "Transfer cases",
+    "Axle Assemblys"
+  ],
+      "Body": [
+    "Fenders",
+    "Hoods",
+    "Trunk lids/ Hatches",
+    "Aerodynamic"
+  ],
+       "Exhaust": [
+    "Mufflers",
+    "Catalytic Converters",
+    "Downpipes",
+    "Resonators",
+    "Headers"
+  ],
+        "HeatingCooling": [
+    "Radiator",
+    "Thermostat",
+    "Hoses",
+    "Compressors",
+    "Condensors",
+    "Blower Motors"
+  ],
+  "Engine": [
+    "Starting",
+    "Charging",
+    "Ignition",
+    "fuel",
+    "Emisions",
+    "Throttle",
+    "Whole Engines"
+  ]
+}
