@@ -156,7 +156,7 @@ namespace UsedPartsDepot
             ImageButton btnClicked = (ImageButton)sender;
             string btn = btnClicked.ID.Substring(3);
 
-            dynamic jsonMenu = JsonConvert.DeserializeObject(File.ReadAllText(@"C:\MyProjects\UsedPartsDepot\UsedPartsDepot\App_Data\MenuJson.txt"));
+            dynamic jsonMenu = JsonConvert.DeserializeObject(File.ReadAllText(Server.MapPath("App_Data/MenuJson.txt")));
 
             if(btn == "Tires")
             {
