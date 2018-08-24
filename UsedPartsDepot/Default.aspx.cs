@@ -164,11 +164,11 @@ namespace UsedPartsDepot
             }
             else
             {
+                lstSubCategories.Items.Clear();
+
                 foreach (var item in jsonMenu[btn])
                 {
-                    pnlSubCategories.Controls.Add(new LiteralControl("<div class='col-md-3' style='padding-top:20px;'>"));
-                    pnlSubCategories.Controls.Add(new Button() { ID = item + "SubCat", Text = item, CssClass = "form-control btn-dark", OnClientClick = "DoPostBack(this);" });
-                    pnlSubCategories.Controls.Add(new LiteralControl("</div>"));
+                    lstSubCategories.Items.Add(new ListItem((string)item));
                 }
             }
           
@@ -183,7 +183,6 @@ namespace UsedPartsDepot
         private string GetPostBackControlName()
         {
             string Output = "";
-            //MainContent_ChargingSubCat
             //get the __EVENTTARGET of the Control that cased a PostBack(except Buttons and ImageButtons)
             string targetCtrl = Page.Request.Params.Get("__EVENTTARGET");
 

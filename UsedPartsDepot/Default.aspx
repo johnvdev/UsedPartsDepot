@@ -117,8 +117,9 @@
                                     <asp:UpdatePanel ID="UpdatePanelSubCategories" runat="server">
                                         <ContentTemplate>
                                             <div class="col-md-12">
-                                                <asp:Panel ID="pnlSubCategories" runat="server">
-                                                </asp:Panel>
+                                                <asp:ListBox ID="lstSubCategories" runat="server" CssClass="form-control" style="height:400px; overflow:auto;" ></asp:ListBox>
+                                                
+                                               
                                             </div>
                                         </ContentTemplate>
                                     </asp:UpdatePanel>
