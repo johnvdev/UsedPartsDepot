@@ -133,12 +133,4 @@
             </asp:Panel>
         </ContentTemplate>
     </asp:UpdatePanel>
-
-    <script lang="javascript" type="text/javascript">
-        function DoPostBack(obj) {
-            __doPostBack(obj.id, 'OtherInformation');
-        }
-    </script>
-
-
 </asp:Content>
